@@ -8,7 +8,7 @@ These patches makes influxdb 1.8.4 work with "large" databases on 32-bit ARM sys
 
 Docker image is available on [ghcr.io](https://github.com/users/terjesannum/packages/container/package/influxdb-arm32).
 
-Add the follwing to the `[data]` section of your influxdb configuration file:
+If you don't use the default configuration, add the follwing to the `[data]` section of your influxdb configuration file:
 
 ```
 tsm-use-seek = true
