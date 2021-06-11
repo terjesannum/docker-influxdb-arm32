@@ -1,8 +1,10 @@
 # docker-influxdb-arm32
 
-This repo builds an influxdb docker image with the `big_db_32bit` patches from [@simonvetter](https://github.com/simonvetter) (https://github.com/simonvetter/influxdb/tree/1.8.4+big_db_32bit).
+This repo builds an influxdb docker image with patches for large databases on 32-bit systems by [@fluffynukeit](https://github.com/fluffynukeit).
 
-These patches makes influxdb 1.8.4 work with "large" databases on 32-bit ARM systems. More information here: https://github.com/influxdata/influxdb/pull/12362
+[@simonvetter](https://github.com/simonvetter) has made a branch of the influxdb 1.8.4 release with these changes applied (https://github.com/simonvetter/influxdb/tree/1.8.4+big_db_32bit) which is used to compile the binaries.
+
+More information here: https://github.com/influxdata/influxdb/pull/12362
 
 ## Usage
 
