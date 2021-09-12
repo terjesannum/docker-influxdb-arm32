@@ -17,9 +17,8 @@ jobs:
       run: |
         git clone https://github.com/simonvetter/influxdb.git
         cd influxdb
-        git checkout origin/1.8.6+big_db_32bit
+        git checkout origin/1.8.9+big_db_32bit
         mkdir build
-        go build -o build/influx_tsm cmd/influx_tsm/*.go
         go build -o build/influx_tools cmd/influx_tools/*.go
         go build -o build/influx_inspect cmd/influx_inspect/main.go
         go build -o build/influxd cmd/influxd/main.go
